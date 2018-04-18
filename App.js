@@ -20,7 +20,7 @@ class App extends Component {
 			this.props.dispatchAddFriend({ name: this.state.text });
 			this.setState({ text: '' });
 		} else {
-			Alert.alert("Error','Please enter a friend's Name");
+			Alert.alert('Error',"Please enter a friend's Name");
 		}
 	}
 
